@@ -11,13 +11,13 @@
       "price": 456
     },
     {
-      "title": "Product 4",
+      "title": "Product 3",
       "price": "123",
       "id": 6
     },
     {
-      "title": "Product 5",
-      "price": "43434",
+      "title": "Product 4",
+      "price": 4343,
       "id": 7
     }
   ]
