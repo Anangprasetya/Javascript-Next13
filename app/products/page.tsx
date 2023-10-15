@@ -1,4 +1,5 @@
 import AddProduct from "./AddProduct";
+import DeleteProduct from "./DeleteProduct";
 
 type Product = {
     id: number;
@@ -40,8 +41,7 @@ export default async function ProductList() {
                                 <div className="mr-1">
                                     oke edit
                                 </div>
-
-                                oke delete
+                                <DeleteProduct {...data_product}/>
                             </td>
                         </tr>
                     ))}
